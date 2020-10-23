@@ -8,10 +8,6 @@
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="{{ url_for('static',path='/css/111.css') }}">
-    <script src="{{ url_for('static',path='/js/111.js') }}"></script>
-
-
 
 </head>
 <body>
@@ -19,14 +15,13 @@
 <form action="/file/" method="post" enctype="multipart/form-data">
     <input type="file" name="file">
     <input type="file" name="file_obj">
-    <input type="text" name="info">
     <input type="submit">
 </form>
 
 <h1>多个文件</h1>
 <form action="/files/" method="post" enctype="multipart/form-data">
     <input type="file" name="files_list" multiple>
-{#    multiple加上就支持一次性传多个文件#}
+
     <input type="file" name="files_obj_list" multiple>
     <input type="submit">
 </form>
