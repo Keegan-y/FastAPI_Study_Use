@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
 运行程序之后，点击链接，会有以下结果：
 
-![1603461986103](C:\Users\YJG\AppData\Roaming\Typora\typora-user-images\1603461986103.png)
+http://ww1.sinaimg.cn/large/0067CtnRgy1gjzqakyajnj30cs02qweb.jpg
 
 ## 模版渲染
 
@@ -228,4 +228,4 @@ app.mount('/static',StaticFiles(directory='static'),name='static')
 
 #### 运行效果：
 
-![1603469278702](C:\Users\YJG\AppData\Roaming\Typora\typora-user-images\1603469278702.png)
+http://ww1.sinaimg.cn/large/0067CtnRgy1gjzqc5dl07j30bk0brwew.jpg
