@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
 运行程序之后，点击链接，会有以下结果：
 
-http://ww1.sinaimg.cn/large/0067CtnRgy1gjzqakyajnj30cs02qweb.jpg
+![000.png](http://ww1.sinaimg.cn/large/0067CtnRgy1gjzqfbx04jj30cs02qweb.jpg)
 
 ## 模版渲染
 
@@ -228,4 +228,4 @@ app.mount('/static',StaticFiles(directory='static'),name='static')
 
 #### 运行效果：
 
-http://ww1.sinaimg.cn/large/0067CtnRgy1gjzqc5dl07j30bk0brwew.jpg
+![0001.png](http://ww1.sinaimg.cn/large/0067CtnRgy1gjzqeq061jj30bk0brwew.jpg)
