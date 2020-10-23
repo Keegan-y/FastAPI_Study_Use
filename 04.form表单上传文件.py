@@ -3,10 +3,13 @@ from starlette.requests import Request
 from fastapi import FastAPI,Form,File,UploadFile
 from starlette.templating import Jinja2Templates
 from typing import List
+from starlette.staticfiles import StaticFiles
 
 app=FastAPI()
+# 挂载模版文件夹
 tmp=Jinja2Templates(directory='templates')
-
+# 挂载静态文件夹
+app.mount('/static',StaticFiles(directory='static'),name='static')
 @app.get('/')#接收get请求
 async def get_file(request:Request):
     return tmp.TemplateResponse('file.html',{'request':request})
